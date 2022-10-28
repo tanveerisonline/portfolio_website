@@ -17,14 +17,14 @@ a {
   margin: auto;
   width: 375px;
   height: 718px;
-  border: 1px solid rebeccapurple;
   border-bottom-left-radius: 7%;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
-.social {
+.social ul {
   display: flex;
   padding-top: 10px;
+  align-items: center;
 }
 
 nav {
