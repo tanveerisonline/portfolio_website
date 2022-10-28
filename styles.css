@@ -1,3 +1,82 @@
-.heading {
-  font-size: 40px;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  margin: auto;
+  width: 375px;
+  height: 718px;
+  border: 1px solid rebeccapurple;
+  border-bottom-left-radius: 7%;
+}
+
+aside ul {
+  display: flex;
+  padding-top: 10px;
+}
+
+.header ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px 12px 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 30px;
+}
+
+.logo {
+  width: 100px;
+  height: 20px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+}
+
+.hero {
+  background-image: url(./assets/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.author {
+  padding: 80px 20px 0 12px;
+  width: 330px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 55px;
+  color: #172b4d;
+}
+
+.bio {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  padding: 20px 10px 8px 10px;
+  color: #344563;
+}
+
+.connect_button {
+  text-transform: uppercase;
+  color: #7f8cff;
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+}
+
+aside ul li {
+  display: flex;
+  padding: 10px 25px 0 5px;
+  align-items: center;
 }
