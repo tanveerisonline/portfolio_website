@@ -95,7 +95,8 @@ nav {
   border: 1px solid #c6c6c6;
   padding: 15px 15px;
   margin-bottom: 70px;
-  display: grid;
+  display: flex;
+  flex-direction: column;
 }
 
 .preview {
@@ -120,6 +121,7 @@ nav {
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
+  width: 275px;
 }
 
 .info {
@@ -189,7 +191,11 @@ nav {
 }
 
 .headline_title {
+  width: 50px;
   color: #172b4d;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
 }
 
 .about_details {
