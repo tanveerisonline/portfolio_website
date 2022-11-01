@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap");
 
 * {
   box-sizing: border-box;
@@ -184,6 +184,7 @@ nav {
 .default_button:hover {
   color: #fff;
   background: #396df2;
+  cursor: pointer;
 }
 
 .about {
@@ -251,4 +252,97 @@ nav {
 .ul_item img {
   width: 40px;
   margin-right: 20px;
+}
+
+.contact {
+  margin-top: 113px;
+  border-top-left-radius: 80px;
+  background-color: #6070ff;
+}
+
+.contact-us {
+  background-image: url(./assets/contact\ form\ shapes-mobile.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  height: 779px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-text {
+  padding-top: 80px;
+}
+
+.form-heading {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  padding-bottom: 12px;
+  line-height: 52px;
+  font-weight: 700;
+}
+
+.my-info {
+  color: #ebebff;
+  text-align: center;
+  padding: 0 24px 54px 24px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-form input {
+  height: 40px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 327px;
+  border-radius: 8px;
+  padding: 18px 16px;
+  font-size: 1rem;
+  font-family: inherit;
+  border: none;
+  background-color: #fff;
+  color: #172b4d;
+}
+
+.contact-form textarea {
+  height: 170px;
+  padding: 15px 38px 15px 16px;
+}
+
+.contact-form *:focus {
+  outline: none;
+  border: 1px solid #cfd8dc;
+  box-shadow: 0 0 10px #719ece;
+}
+
+.submit-button {
+  align-self: flex-start;
+  margin-left: 24px;
+  width: 148px;
+  height: 48px;
+  border-radius: 8px;
+  border: #6070ff;
+  text-align: center;
+  color: #6070ff;
+  font-size: 17px;
+  letter-spacing: 3%;
+  line-height: 24px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  color: #fff;
+  background: #396df2;
+  border: 1px solid #fff;
 }
