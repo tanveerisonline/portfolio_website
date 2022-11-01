@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,800&display=swap");
 
 * {
   box-sizing: border-box;
@@ -251,4 +251,19 @@ nav {
 .ul_item img {
   width: 40px;
   margin-right: 20px;
+}
+
+.contact {
+  border-top-left-radius: 80px;
+  background-color: #6070ff;
+}
+
+.contact-us {
+  background-image: url(./assets/contact\ form\ shapes-mobile.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  height: 779px;
+  display: flex;
+  justify-content: center;
+  margin: 2.4rem 0 4.8rem 0;
 }
