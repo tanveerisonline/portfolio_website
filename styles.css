@@ -159,7 +159,7 @@ nav {
   margin: 10px 0;
 }
 
-.catagories>li {
+.catagories > li {
   padding: 8px;
   list-style: none;
   color: #6070ff;
@@ -271,7 +271,6 @@ nav {
 
 .contact-text {
   padding-top: 80px;
-
 }
 
 .form-heading {
@@ -284,9 +283,9 @@ nav {
 }
 
 .my-info {
-  color: #EBEBFF;
+  color: #ebebff;
   text-align: center;
-  padding: 0px 24px 54px 24px;
+  padding: 0 24px 54px 24px;
   font-size: 20px;
   font-weight: 400;
   line-height: 30px;
@@ -310,10 +309,9 @@ nav {
   padding: 18px 16px;
   font-size: 1rem;
   font-family: inherit;
-  color: inherit;
   border: none;
   background-color: #fff;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .contact-form textarea {
@@ -323,8 +321,8 @@ nav {
 
 .contact-form *:focus {
   outline: none;
-  border: 1px solid #CFD8DC;
-  box-shadow: 0 0 10px #719ECE;
+  border: 1px solid #cfd8dc;
+  box-shadow: 0 0 10px #719ece;
 }
 
 .submit-button {
@@ -333,9 +331,9 @@ nav {
   width: 148px;
   height: 48px;
   border-radius: 8px;
-  border: #6070FF;
+  border: #6070ff;
   text-align: center;
-  color: #6070FF;
+  color: #6070ff;
   font-size: 17px;
   letter-spacing: 3%;
   line-height: 24px;
@@ -347,5 +345,4 @@ nav {
   color: #fff;
   background: #396df2;
   border: 1px solid #fff;
-
 }
