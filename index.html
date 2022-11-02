@@ -5,16 +5,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="queries.css"/>
   <title>Portfolio</title>
 </head>
 <body>
   <main class="container">
   
     <header class="header">
-      <nav>
+      <nav class="desktop-navbar">
+        <div class="desktop-nav">
+          <a href="#" target="_parent" class="logo">My Portfolio</a>          
+        </div>
+        <div class="nav-links">  
+          <ul>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav class="mobile-nav">
         <a href="#" target="_parent" class="logo">My Portfolio</a>
         <img src="./assets/Union.png" class="mobile_menu_icon"/>
       </nav>
+
     </header>
 
     <section>
