@@ -159,7 +159,7 @@ a {
   margin: 10px 0;
 }
 
-.catagories>li {
+.catagories > li {
   padding: 8px;
   list-style: none;
   color: #6070ff;
@@ -395,7 +395,7 @@ a {
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .desktop-navbar {
     display: none;
   }
