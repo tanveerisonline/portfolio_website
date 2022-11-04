@@ -14,7 +14,7 @@
     <header class="header">
       <nav class="desktop-navbar">
         <div class="desktop-nav">
-          <a href="#" target="_parent" class="logo">My Portfolio</a>          
+          <a href="#" target="_parent" class="logo">Tanveer Ahmad</a>          
         </div>
         <div class="nav-links">  
           <ul>
@@ -33,6 +33,7 @@
 
     <section>
       <div class="hero">
+        <div class="intro">
         <h1 class="author">I’m Tanveer Glad to see you!</h1>
         <p class="bio">I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
            don’t hestiate to contact me.</p>        
@@ -45,15 +46,40 @@
             <li><a href="#"><img src="./assets/Vector-2.svg" alt="m-icon"></a></li>
             <li><a href="#"><img src="./assets/Vector-1.svg" alt="github"></a></li>
             <li><a href="#"><img src="./assets/Vector-3.svg" alt="victory"></a></li>
-          </ul>
+          </ul>
         </div>
+      </div>
       </div>      
     </section>  
 
     <!-- Work section -->
     <section class="work">
+
+      <div class="card" id="order-0">
+        <div class="preview">
+          <img src="./assets/desktop_images/Snapshoot Portfolio.png" alt="Project 1" />
+        </div>
+        <div class="details">
+          <h2 class="title">Tonic</h2>
+          <ul class="info">
+            <li class="info_item">CANOPY</li>
+            <li class="info_item">Back End Dev</li>
+            <li class="info_item">2015</li>
+          </ul>
+          <p class="details_content">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required.
+          </p>
+          <ul class="catagories">
+            <li>Html</li>
+            <li>Css</li>
+            <li>Javascript</li>
+          </ul>
+          <button type="button" class="default_button">See More</button>
+        </div>
+      </div>
       <!-- work card 1 -->
-        <div class="card">
+        <div class="card" id="order-1">
           <div class="preview">
             <img src="./assets/snapshoot-portfolio1.png" alt="Project 1" />
           </div>
@@ -77,7 +103,7 @@
           </div>
         </div>
       <!-- work card 2 -->
-      <div class="card">
+      <div class="card" id="order-2">
         <div class="preview">
           <img src="./assets/snapshoot-portfolio2.png" alt="Project 2" />
         </div>
@@ -102,7 +128,7 @@
       </div>
 
       <!-- work card 3 -->
-      <div class="card">
+      <div class="card" id="order-3">
         <div class="preview">
           <img src="./assets/snapshoot-portfolio3.png" alt="Project 3" />
         </div>
@@ -127,7 +153,7 @@
       </div>
 
       <!-- work card 4-->
-      <div class="card">
+      <div class="card" id="order-4">
         <div class="preview">
           <img src="./assets/snapshoot-portfolio4.png" alt="Project 4" />
         </div>
@@ -154,28 +180,33 @@
     <!-- end of work section-->
 
     <section class="about">
-      <h2 class="headline_title">About Myself</h2>
-      <p class="about_details">
-        Hello I’m a software developer! I can help you build a product ,
-        feature or website Look through some of my work and experience! If you
-        like what you see and have a project you need coded, don’t hestiate to
-        contact me.
-      </p>
-      
-      <div class="btn-link"><a href="#"><h3 class="connect_button">let's connect</h3></a></div>
+      <div class="about-div">
+          <h2 class="headline_title">About Myself</h2>
+          <p class="about_details">
+            Hello I’m a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If you
+            like what you see and have a project you need coded, don’t hestiate to
+            contact me.
+          </p>
 
-        <div class="social">
-          <ul>
-            <li><a href="#"><img src="./assets/Vector.svg" alt="twitter"></a></li>
-            <li><a href="#"><img src="./assets/Linkedin icon.svg" alt="Linkedin"></a></li>
-            <li><a href="#"><img src="./assets/Vector-2.svg" alt="m-icon"></a></li>
-            <li><a href="#"><img src="./assets/Vector-1.svg" alt="github"></a></li>
-            <li><a href="#"><img src="./assets/Vector-3.svg" alt="victory"></a></li>
-          </ul>
-        </div>
-      <div class="action">
-        <button type="button" class="default_button">Get my resume</button>
-      </div>
+          <div class="btn-link"><a href="#"><h3 class="connect_button">let's connect</h3></a></div>
+
+              <div class="social">
+                <ul>
+                  <li><a href="#"><img src="./assets/Vector.svg" alt="twitter"></a></li>
+                  <li><a href="#"><img src="./assets/Linkedin icon.svg" alt="Linkedin"></a></li>
+                  <li><a href="#"><img src="./assets/Vector-2.svg" alt="m-icon"></a></li>
+                  <li><a href="#"><img src="./assets/Vector-1.svg" alt="github"></a></li>
+                  <li><a href="#"><img src="./assets/Vector-3.svg" alt="victory"></a></li>
+                </ul>
+              </div>
+          
+              <div class="action">
+                <button type="button" class="default_button">Get my resume</button>
+              </div>
+          </div>
+    </div>
+      <div class="languages">
       <ul class="about_ul">
         <h3 class="about_sub_title">
           Languages
@@ -217,6 +248,7 @@
           />
         </h3>
       </ul>
+      </div>
     </section>
     <footer class="contact">
       <div class="contact-us">
@@ -243,10 +275,11 @@
             <label for="your message">
               <textarea placeholder="Write your message here" maxlength="500" id="message" required></textarea>
             </label>
-
-            <button type="submit" class="submit-button">
+            <div class="submit-btn">
+              <button type="submit" class="submit-button">
               Get in touch
             </button>
+          </div>
           </form>
         </div>
       </div>
