@@ -1,7 +1,7 @@
 # Project Name
 > This project is a portfolio website which is created using pure Html5 and Css3.
 > Me and my other two partners have worked together on form section in this project.
-
+> This project has both features its mobile friendly as well as desktop too.
 ## Built With
 - Html
 - Css
