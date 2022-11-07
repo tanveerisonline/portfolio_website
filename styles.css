@@ -414,6 +414,7 @@ a {
     padding-left: 32px;
     font-size: 18px;
     font-weight: 500;
+    color: #344563;
   }
 
   .nav-links li a:active {
@@ -502,6 +503,11 @@ a {
   }
 
   /* cards */
+
+  /* .work {
+    border-top-left-radius: 100px;
+  } */
+
   .card {
     display: flex;
     flex-direction: row;
@@ -659,6 +665,11 @@ a {
 
   .default_button {
     margin-top: 50px;
+  }
+
+  .main-bg {
+    /* background-color: #c1c7d0; */
+    border-bottom-left-radius: 100px;
   }
 }
 
